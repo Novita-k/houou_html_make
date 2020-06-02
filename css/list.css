@@ -52,3 +52,22 @@
   border-top: 6px solid #666;
   pointer-events: none;
 }
+[data-more-btn] {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #2996cc;
+  display: inline-block;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.list-area .c-section {
+  float: left;
+  width: calc(100% - 200px - 40px);
+}
+.result-text {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
