@@ -5,3 +5,9 @@
 .top-slider-wrap {
 	margin-bottom: 60px;
 }
+
+@media (max-width: 768px){
+	.top-slider img {
+		width: 100%;
+	}
+}
