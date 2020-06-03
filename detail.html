@@ -5,7 +5,8 @@
 	<title>JavaScriptの屋敷</title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/list.css">
+	<link rel="stylesheet" href="css/detail.css">
+	<link rel="stylesheet" href="css/btn.css">
 </head>
 <body>
 	<header class="header">
@@ -39,175 +40,44 @@
 		</div>
 	</header>
 	<div class="contents">
-		<div class="inner list-area">
-			<aside class="sideber">
-				<section class="sideber-inner">
-					<h3 class="sideber-title">カテゴリー</h3>
-					<div class="sideber-body">
-						<ul class="sideber-list">
-							<li><a href="">MEN</a></li>
-							<li><a href="">WOMEN</a></li>
-							<li><a href="">KIDS</a></li>
-						</ul>
-					</div>
-				</section>
-				<section class="sideber-inner">
-					<h3 class="sideber-title">価格</h3>
-					<div class="sideber-body">
-						<form action="" method="GET">
-							<div class="price-select-wrap">
-								<select name="price" class="price-select">
-									<option hidden="">価格を選択する</option>
-									<option value="1000">〜1000円</option>
-									<option value="2000">〜2000円</option>
-									<option value="3000">〜3000円</option>
-									<option value="4000">〜4000円</option>
-									<option value="5000">〜5000円</option>
-								</select>
-							</div>
-						</form>
-					</div>
-				</section>
-				<section class="sideber-inner">
-					<h3 class="sideber-title">ブランド</h3>
-					<div class="sideber-body">
-						<ul class="sideber-list">
-							<li><a href="">AAA</a></li>
-							<li><a href="">BBB</a></li>
-							<li><a href="">CCC</a></li>
-						</ul>
-						<div data-more-btn="brand">もっと見る＋</div>
-					</div>
-				</section>
-			</aside>
-			<section class="c-section">
-				<h2 class="result-text">テキストテキスト</h2>
-				<ul class="item-list">
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/30.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/32.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/38.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/40.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/50.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/30.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/32.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/38.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/40.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-					<li class="item">
-						<a href="">
-							<div class="item-cap">
-								<img src="img/item/50.png" alt="" loading="lazy">
-							</div>
-							<div class="item-info">
-								<h3 class="item-name">シャツ</h3>
-								<p class="item-text">テキスト</p>
-								<div class="item-price">¥1500</div>
-							</div>
-						</a>
-					</li>
-				</ul>
-				<div data-more-btn="brand">もっと見る＋</div>
-			</section>
+		<div class="inner item-detail">
+			<div class="item-detail-main">
+				<img src="img/item/21.png" alt="">
+				<p class="mouse-note">画像にマウスを合わせると拡大します</p>
+			</div>
+			<div class="item-detail-info">
+				<h2 class="item-detail-name">シャツ</h2>
+				<div class="item-detail-brand">BRAND:<span>FFF</span></div>
+				<div class="item-size">
+					<div class="item-siz-select">Slect size:<span>130</span></div>
+					<ul class="item-size-list">
+						<li class="is-active">130</li>
+						<li>140</li>
+						<li>150</li>
+						<li>160</li>
+						<li>170</li>
+						<li>180</li>
+						<li>190</li>
+					</ul>
+				</div>
+				<div class="item-detail-price">¥<span>4200</span></div>
+				<div class="btn btn--cart"><span>カートに追加する</span></div>
+				<div class="btn btn--fav"><span>お気に入りに入れる</span></div>
+			</div>
 		</div>
 		<div class="inner">
+			<section class="c-section">
+				<div class="c-section-head">
+					<h2 class="c-section-title">レビューをする</h2>
+				</div>
+				<ul class="review">
+					<li class="is-active">★</li>
+					<li class="is-active">★</li>
+					<li class="is-active">★</li>
+					<li class="is-active">★</li>
+					<li>★</li>
+				</ul>
+			</section>
 			<section class="c-section">
 				<div class="c-section-head">
 					<h2 class="c-section-title">PICK UP</h2>
