@@ -441,4 +441,18 @@ a img:hover{
  .thumbnail-list .item {
 	 width: 100%;
  }
+
+ /* [スマホ]ブランド部分ここから */
+ .c-brand {
+	 padding: 25px 15px;
+	 margin-bottom: 80px;
+ }
+.brand-list {
+	grid-template-columns: repeat(auto-full, minmax(30%, 1fr));
+}
+.brand-list li {
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+}
 }
