@@ -34,6 +34,7 @@
 .item-detail-brand {
   margin-bottom: 20px;
   font-size: 18px;
+  font-weight: bold;
 }
 .item-size {
   margin-bottom: 20px;
@@ -77,4 +78,20 @@
 }
 .review li.is-active {
   color: #ffc107;
+}
+
+/* レスポンシブここから */
+@media (max-width: 768px) {
+  .item-detail {
+    display: block;
+    padding: 20px;
+    margin: 0 auto 80px;
+  }
+  .item-detail-main {
+    width: auto;
+    margin: 0 0 20px 0;
+  }
+  .item-detail-info {
+    width: auto;
+  }
 }
