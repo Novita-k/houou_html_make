@@ -336,6 +336,9 @@ a img:hover{
 
 @media (max-width: 768px) {
  /* スマホ共通ここから */
+ .contents {
+	 padding-top: 45px;
+ }
  .inner {
 	width: auto;
 	margin: 0 10px;
@@ -418,5 +421,19 @@ a img:hover{
  }
  .menu-trigger.is-active span:nth-of-type(3) {
 	transform: translateY(-9px) rotate(315deg);
+ }
+
+ /* [スマホ]アイテムセクションここから */
+ .c-section-title {
+	 font-size: 20px;
+ }
+ .more-link {
+	 font-size: 13px;
+ }
+ .item {
+	 width: calc(100% / 2);
+ }
+ .item-name {
+	 font-size: 13px;
  }
 }

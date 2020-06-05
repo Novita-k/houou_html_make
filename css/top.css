@@ -10,4 +10,7 @@
 	.top-slider img {
 		width: 100%;
 	}
+	.top-slider.inner {
+		margin: 0;
+	}
 }
