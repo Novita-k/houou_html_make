@@ -436,4 +436,9 @@ a img:hover{
  .item-name {
 	 font-size: 13px;
  }
+
+ /* [スマホ]ピックアップ部分ここから */
+ .thumbnail-list .item {
+	 width: 100%;
+ }
 }
