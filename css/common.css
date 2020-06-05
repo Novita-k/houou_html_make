@@ -447,12 +447,24 @@ a img:hover{
 	 padding: 25px 15px;
 	 margin-bottom: 80px;
  }
-.brand-list {
-	grid-template-columns: repeat(auto-full, minmax(30%, 1fr));
-}
-.brand-list li {
-	height: 50px;
-	line-height: 50px;
-	font-size: 16px;
-}
+	.brand-list {
+		grid-template-columns: repeat(auto-full, minmax(30%, 1fr));
+	}
+	.brand-list li {
+		height: 50px;
+		line-height: 50px;
+		font-size: 16px;
+	}
+
+	/* [スマホ]フッター部分ここから */
+	.footer-inner {
+		padding: 30px 0;
+	}
+	.sns li {
+		font-size: 10px;
+	}
+	.footer-link li {
+		font-size: 10px;
+		margin: 0 3px;
+	}
 }
